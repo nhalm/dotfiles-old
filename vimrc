@@ -7,7 +7,10 @@ filetype plugin indent on
 runtime! plugin/sensible.vim
 set encoding=utf-8
 
-colorscheme wombat
+"colorscheme wombat
+syntax enable
+set background=dark
+colorscheme solarized
 
 """" vim-airline config
 
@@ -18,7 +21,7 @@ let g:airline#extensions#tabline#enabled=1
 
 let g:airline_powerline_fonts = 1
 
-let g:airline_theme='wombat'
+let g:airline_theme='solarized'
 
 "don't need the default mode indicator
 set noshowmode
