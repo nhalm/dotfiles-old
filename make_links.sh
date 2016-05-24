@@ -5,6 +5,10 @@ echo "making the necesary symlinks"
 echo 
 echo
 echo "making .vim symlink"
+if [ -d $HOME/.vim ]; then
+	rm -rf $HOME/.vim
+fi
+
 ln -s $(pwd)/vim $HOME/.vim
 
 echo
