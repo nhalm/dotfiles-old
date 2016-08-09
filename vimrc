@@ -61,3 +61,9 @@ set t_Co=256
 "let g:gitgutter_enabled = 0
 
 """"
+
+map <C-n> :cnext<CR>
+map <C-m> :cprevious<CR>
+nnoremap <leader>a :cclose<CR>
+autocmd FileType go nmap <leader>b <Plug>(go-build)
+autocmd FileType go nmap <leader>r <Plug>(go-run)
