@@ -11,6 +11,7 @@ set encoding=utf-8
 syntax enable
 set background=dark
 colorscheme solarized
+let g:solarized_termcolors=256
 
 """" vim-airline config
 
